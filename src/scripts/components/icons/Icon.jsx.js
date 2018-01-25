@@ -11,6 +11,7 @@ const Icon = ({ size, className, viewBox, d }) => (
         version="1.1"
     >
         <path
+            fill="currentColor"
             d={d} />
     </svg>
 );

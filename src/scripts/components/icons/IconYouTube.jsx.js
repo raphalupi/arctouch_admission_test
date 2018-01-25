@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import Icon from './Icon.jsx';
 
-const IconTwitter = ({ size, className }) => (
+const IconYouTube = ({ size, className }) => (
     <Icon
         size={size}
         className={className}
@@ -80,14 +80,14 @@ const IconTwitter = ({ size, className }) => (
         20.4375 17.320313 20.339844 17.28125 20.1875 17.28125 Z" />
 );
 
-IconTwitter.propTypes = {
+IconYouTube.propTypes = {
     size: PropTypes.string,
     className: PropTypes.string,
 };
 
-IconTwitter.defaultProps = {
+IconYouTube.defaultProps = {
     size: '20',
     className: 'black',
 };
 
-export default IconTwitter;
+export default IconYouTube;
