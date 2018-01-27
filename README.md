@@ -1,5 +1,5 @@
 # arctouch_admission_test
-Demo product landing-page layout implementation with React.js.
+Demo product's landing-page layout implementation with React.js.
 This is part of the hiring process at ArcTouch company.
 
 
@@ -7,11 +7,11 @@ This is part of the hiring process at ArcTouch company.
 
 As provided in the e-mail, application should follow some specifications:
 
-* Develop static page following provided layout.
+* Develop a static page following provided layout.
 * Use any tools necessary for the job, except for the carousel component (which should be created from scratch).
 * Develop a mobile experience too.
 * Carousel should have animation for slide changes and the user should be able to change the slide.
-* Carousel should auto-change slide every 4 seconds (if interacted should stop this behavior).
+* Carousel should auto-change slide every 4 seconds (when interacted it should stop this behavior).
 * Also deliver instruction for building the project.
 
 
@@ -72,7 +72,7 @@ Had to do some tricks with borders and pseudo-elements for rendering the 'featur
 Carousel does the automatic transition when page loads. If the user interact with the controls, the 'auto' feature stops. I achieved the result using opacity transitions on 'stacked' elements (everyone absolute positioned in the same place). I wanted to try this approach, as I've recently implemented another carousel like transition in this project: [chaordic_admission_test](https://github.com/raphalupi/chaordic_admission_test). Please have a look at that code for examples of how I implemented the scroll effect (margins manipulation).
 
 Regarding the things **I didn't manage to achieve**:
-* Find the exact font-faces online. I ended up using Roboto for everything (as a sans-serif), and Pacifico for the logo (much thicker).
+* Find the exact font-faces online. I ended up using Roboto for everything (as a sans-serif), and Pacifico for the logo (way thicker than the provided one).
 * Use the exact same icons as provided. I ended up getting similar ones and added their svgs to icon components.
 * Getting the video player to run with as little information on screen as possible (like showed in the PSD).
 * Getting the video player's borders to be round (search for it online, but found no way to modify it over the tachyons classes).
@@ -80,6 +80,7 @@ Regarding the things **I didn't manage to achieve**:
 Other information can be found throughout the code.
 
 Some examples:
+
 ![Demo image 1 - page top, header and features](./demo_1.png)
 ![Demo image 2 - about, testimonials and pricings](./demo_2.png)
 
