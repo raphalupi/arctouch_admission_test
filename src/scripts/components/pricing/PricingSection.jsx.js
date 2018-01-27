@@ -23,6 +23,8 @@ const classes = {
         css(styles.content),
         'pt5-ns',
         'pt4',
+        'pb3',
+        'pb4-m',
         'ph3',
         'ph0-ns',
         'flex',
