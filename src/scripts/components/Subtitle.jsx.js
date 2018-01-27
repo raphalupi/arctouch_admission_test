@@ -4,10 +4,9 @@ import classnames from 'classnames';
 
 const classes = {
     title: classnames(
-        'f3',
+        'f5',
         'gray',
-        'fw4',
-        'mv2'
+        'fw4'
     ),
 };
 
